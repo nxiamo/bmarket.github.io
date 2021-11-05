@@ -43,11 +43,11 @@
         "use strict";
         n.r(t);
         var a, i, s, u, r, p, y, d, o, l, c, m, b = n(0), f = n.n(b), x = n(40), T = n.n(x), g = function (e) {
-                e && e instanceof Function && n.e(3).then(n.bind(null, 785)).then((function (t) {
-                    var n = t.getCLS, a = t.getFID, i = t.getFCP, s = t.getLCP, u = t.getTTFB;
-                    n(e), a(e), i(e), s(e), u(e)
-                }))
-            }, w = (n(391), n(181)), h = n(43), j = n(235), v = n(45), M = n.n(v), O = n(140), A = n(33), k = n(66),
+            e && e instanceof Function && n.e(3).then(n.bind(null, 785)).then((function (t) {
+                var n = t.getCLS, a = t.getFID, i = t.getFCP, s = t.getLCP, u = t.getTTFB;
+                n(e), a(e), i(e), s(e), u(e)
+            }))
+        }, w = (n(391), n(181)), h = n(43), j = n(235), v = n(45), M = n.n(v), O = n(140), A = n(33), k = n(66),
             _ = n(50), C = n(67), I = n(784), B = n(772), N = n(777), S = n(158), P = n(47), F = n(770), E = n(779),
             D = n(383), z = n(780), L = n(781), R = n(773), W = n(782), Q = n(783), J = n(771), G = n(774), U = n(778),
             Y = n(776), q = n(775), V = n(141), K = n.n(V),
@@ -61,7 +61,7 @@
             fe = n(5), xe = B.a.Countdown, Te = N.a.Link, ge = S.a.Option, we = {
                 chainId: "0x38",
                 chainName: "BSC",
-                nativeCurrency: {name: "BSC", symbol: "BSC", decimals: 18},
+                nativeCurrency: { name: "BSC", symbol: "BSC", decimals: 18 },
                 rpcUrls: ["https://bsc-dataseed3.binance.org"],
                 blockExplorerUrls: ["https://bscscan.com/"]
             };
@@ -119,7 +119,7 @@
                 98: 2160,
                 99: 2304,
                 100: 2448
-            }, De = {1: 1, 2: 2, 3: 4, 4: 8, 5: 16, 6: 25, 7: 50, 8: 75, 9: 100, 10: 200, 11: 300, 12: 500},
+            }, De = { 1: 1, 2: 2, 3: 4, 4: 8, 5: 16, 6: 25, 7: 50, 8: 75, 9: 100, 10: 200, 11: 300, 12: 500 },
             ze = "0x22F3E436dF132791140571FC985Eb17Ab1846494", Le = "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3",
             Re = "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44", We = "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937",
             Qe = "0x210d87ba2990082ff22ea15396303382b1faea56", Je = "0xe278BDF4541cc309b379F9A4E867F60fD6B7BC59",
@@ -164,7 +164,7 @@
                 var i = arguments.length > 4 && void 0 !== arguments[4] ? arguments[4] : 86,
                     s = arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : 61;
                 return e.career_address === t && e[n] >= i && e[a] >= s
-            }, ft = [{title: "\u5de5\u4f5c", dataIndex: "workname", width: 60}, {
+            }, ft = [{ title: "\u5de5\u4f5c", dataIndex: "workname", width: 60 }, {
                 title: "\u6536\u76ca",
                 dataIndex: "gold",
                 width: 60,
@@ -173,36 +173,36 @@
                 }
             }], xt = [{
                 title: "", dataIndex: "win", render: function (e) {
-                    return Object(fe.jsx)("img", {src: 1 == e ? X : H, style: {width: 30}})
+                    return Object(fe.jsx)("img", { src: 1 == e ? X : H, style: { width: 30 } })
                 }
             }, {
                 title: "\u5730\u7262", dataIndex: "name", render: function (e, t) {
-                    return Object(fe.jsxs)("span", {children: [t.name, "-Lv", t.lv]})
+                    return Object(fe.jsxs)("span", { children: [t.name, "-Lv", t.lv] })
                 }
             }, {
                 title: "\u89d2\u8272", dataIndex: "role", render: function (e, t) {
-                    return Object(fe.jsxs)("span", {children: [et[t.p_role], "-Lv", t.p_lv]})
+                    return Object(fe.jsxs)("span", { children: [et[t.p_role], "-Lv", t.p_lv] })
                 }
             }, {
                 title: "TokenID", dataIndex: "token_id", render: function (e) {
-                    return Object(fe.jsxs)("span", {children: [e.substr(0, 6), "***", e.substr(-6, 6)]})
+                    return Object(fe.jsxs)("span", { children: [e.substr(0, 6), "***", e.substr(-6, 6)] })
                 }
             }, {
                 title: "\u6740\u654c", dataIndex: "m_name", render: function (e) {
                     return Object(fe.jsx)(fe.Fragment, {
                         children: String(e).split(",").map((function (e) {
-                            return Object(fe.jsx)("p", {children: e})
+                            return Object(fe.jsx)("p", { children: e })
                         }))
                     })
                 }
             }, {
                 title: "\u5956\u52b1", dataIndex: "jl", render: function (e, t) {
-                    return Object(fe.jsxs)(fe.Fragment, {children: [Object(fe.jsxs)("p", {children: [t.r_money, "\u4e2a\u91d1\u5e01"]}), Object(fe.jsxs)("p", {children: [t.r_coupon, "\u4e2a\u94c1\u8d28\u94a5\u5319"]}), Object(fe.jsxs)("p", {children: [t.r_coin, "\u4e2aBNX"]})]})
+                    return Object(fe.jsxs)(fe.Fragment, { children: [Object(fe.jsxs)("p", { children: [t.r_money, "\u4e2a\u91d1\u5e01"] }), Object(fe.jsxs)("p", { children: [t.r_coupon, "\u4e2a\u94c1\u8d28\u94a5\u5319"] }), Object(fe.jsxs)("p", { children: [t.r_coin, "\u4e2aBNX"] })] })
                 }
             }, {
                 title: "\u72b6\u6001", dataIndex: "r_status", render: function (e) {
                     return Object(fe.jsx)("span", {
-                        style: {color: 1 === e ? "#666" : "red"},
+                        style: { color: 1 === e ? "#666" : "red" },
                         children: 1 === e ? "\u5df2\u9886\u53d6" : "\u672a\u9886\u53d6"
                     })
                 }
@@ -220,23 +220,23 @@
                             n = 11410
                     }
                     var a = t.r_money + 15e3 * t.r_coin - n;
-                    return Object(fe.jsx)("span", {children: a})
+                    return Object(fe.jsx)("span", { children: a })
                 }
             }], Tt = [{
                 title: "", dataIndex: "win", render: function (e) {
-                    return Object(fe.jsx)("img", {src: 1 == e ? X : H, style: {width: 20}})
+                    return Object(fe.jsx)("img", { src: 1 == e ? X : H, style: { width: 20 } })
                 }
-            }, {title: "\u5730\u7262", dataIndex: "lv"}, {
+            }, { title: "\u5730\u7262", dataIndex: "lv" }, {
                 title: "\u89d2\u8272",
                 dataIndex: "role",
                 render: function (e, t) {
-                    return Object(fe.jsxs)("span", {style: {fontSize: ".7rem"}, children: [et[t.p_role], t.p_lv]})
+                    return Object(fe.jsxs)("span", { style: { fontSize: ".7rem" }, children: [et[t.p_role], t.p_lv] })
                 }
             }, {
                 title: "\u6740\u654c", dataIndex: "m_name", render: function (e) {
                     return Object(fe.jsx)(fe.Fragment, {
                         children: String(e).split(",").map((function (e) {
-                            return Object(fe.jsx)("p", {style: {fontSize: ".7rem"}, children: e})
+                            return Object(fe.jsx)("p", { style: { fontSize: ".7rem" }, children: e })
                         }))
                     })
                 }
@@ -244,12 +244,12 @@
                 title: "\u5956\u52b1", dataIndex: "jl", render: function (e, t) {
                     return Object(fe.jsxs)(fe.Fragment, {
                         children: [Object(fe.jsxs)("p", {
-                            style: {fontSize: ".7rem"},
+                            style: { fontSize: ".7rem" },
                             children: [t.r_money, "\u91d1"]
                         }), Object(fe.jsxs)("p", {
-                            style: {fontSize: ".7rem"},
+                            style: { fontSize: ".7rem" },
                             children: [t.r_coupon, "\u94a5"]
-                        }), Object(fe.jsxs)("p", {style: {fontSize: ".7rem"}, children: [t.r_coin, "BNX"]})]
+                        }), Object(fe.jsxs)("p", { style: { fontSize: ".7rem" }, children: [t.r_coin, "BNX"] })]
                     })
                 }
             }, {
@@ -266,17 +266,17 @@
                             n = 11410
                     }
                     var a = t.r_money + 15e3 * t.r_coin - n;
-                    return Object(fe.jsx)("span", {style: {fontSize: ".7rem"}, children: a})
+                    return Object(fe.jsx)("span", { style: { fontSize: ".7rem" }, children: a })
                 }
             }], gt = [{
                 title: "", width: 50, render: function (e, t) {
-                    return Object(fe.jsx)("img", {style: {width: "40px"}, src: lt(t.career_address)})
+                    return Object(fe.jsx)("img", { style: { width: "40px" }, src: lt(t.career_address) })
                 }
             }, {
                 title: "\u89d2\u8272", dataIndex: "js", width: 60, sorter: function (e, t) {
                     return e.career_address - t.career_address
                 }, render: function (e, t) {
-                    return Object(fe.jsx)("p", {children: et[t.career_address]})
+                    return Object(fe.jsx)("p", { children: et[t.career_address] })
                 }
             }, {
                 title: "\u7b49\u7ea7", dataIndex: "level", width: 60, sorter: function (e, t) {
@@ -291,7 +291,7 @@
                     return e.strength - t.strength
                 }, render: function (e, t) {
                     return Object(fe.jsxs)("span", {
-                        style: {color: t.career_address === ve || t.career_address === Me || t.career_address === Ae ? "red" : "black"},
+                        style: { color: t.career_address === ve || t.career_address === Me || t.career_address === Ae ? "red" : "black" },
                         children: [t.strength, t.career_address === Me || t.career_address === Ae ? "(\u4e3b)" : "", t.career_address === ve ? "(\u526f)" : ""]
                     })
                 }
@@ -300,7 +300,7 @@
                     return e.agility - t.agility
                 }, render: function (e, t) {
                     return Object(fe.jsxs)("span", {
-                        style: {color: t.career_address === ve || t.career_address === Ae ? "red" : "black"},
+                        style: { color: t.career_address === ve || t.career_address === Ae ? "red" : "black" },
                         children: [t.agility, t.career_address === ve ? "(\u4e3b)" : "", t.career_address === Ae ? "(\u526f)" : ""]
                     })
                 }
@@ -309,7 +309,7 @@
                     return e.physique - t.physique
                 }, render: function (e, t) {
                     return Object(fe.jsxs)("span", {
-                        style: {color: t.career_address === Me ? "red" : "black"},
+                        style: { color: t.career_address === Me ? "red" : "black" },
                         children: [t.physique, t.career_address === Me ? "(\u526f)" : ""]
                     })
                 }
@@ -322,7 +322,7 @@
                     return e.brains - t.brains
                 }, width: 60, render: function (e, t) {
                     return Object(fe.jsxs)("span", {
-                        style: {color: t.career_address === Oe ? "red" : "black"},
+                        style: { color: t.career_address === Oe ? "red" : "black" },
                         children: [t.brains, t.career_address === Oe ? "(\u4e3b)" : ""]
                     })
                 }
@@ -331,7 +331,7 @@
                     return e.charm - t.charm
                 }, render: function (e, t) {
                     return Object(fe.jsxs)("span", {
-                        style: {color: t.career_address === Oe ? "red" : "black"},
+                        style: { color: t.career_address === Oe ? "red" : "black" },
                         children: [t.charm, t.career_address === Oe ? "(\u526f)" : ""]
                     })
                 }
@@ -339,7 +339,7 @@
                 title: "\u89d2\u8272", dataIndex: "js", width: 60, sorter: function (e, t) {
                     return e.career_address - t.career_address
                 }, render: function (e, t) {
-                    return Object(fe.jsx)("p", {children: et[t.career_address]})
+                    return Object(fe.jsx)("p", { children: et[t.career_address] })
                 }
             }, {
                 title: "\u7b49\u7ea7", dataIndex: "level", width: 60, sorter: function (e, t) {
@@ -359,7 +359,7 @@
                         case Oe:
                             n = t.brains
                     }
-                    return Object(fe.jsx)("p", {children: n})
+                    return Object(fe.jsx)("p", { children: n })
                 }
             }, {
                 title: "\u526f\u5c5e\u6027", dataIndex: "m2", width: 70, render: function (e, t) {
@@ -377,13 +377,13 @@
                         case Ae:
                             n = t.agility
                     }
-                    return Object(fe.jsx)("p", {children: n})
+                    return Object(fe.jsx)("p", { children: n })
                 }
             }], ht = [{
                 title: "\u4ef7\u683c", sorter: function (e, t) {
                     return e.price - t.price
                 }, render: function (e, t) {
-                    return Object(fe.jsxs)("p", {children: [parseInt(t.price) / 1e18, "bnx"]})
+                    return Object(fe.jsxs)("p", { children: [parseInt(t.price) / 1e18, "bnx"] })
                 }
             }], jt = [{
                 title: "\u94fe\u63a5", render: function (e, t) {
@@ -395,7 +395,7 @@
                 }
             }], vt = [{
                 title: "ID", dataIndex: "token_id", width: 100, render: function (e, t) {
-                    return Object(fe.jsxs)("p", {children: [String(t.token_id).substr(0, 5), "***", String(t.token_id).substr(-5, 5)]})
+                    return Object(fe.jsxs)("p", { children: [String(t.token_id).substr(0, 5), "***", String(t.token_id).substr(-5, 5)] })
                 }
             }], Mt = [{
                 title: "", dataIndex: "hege", width: 40, render: function (e, t) {
@@ -445,8 +445,8 @@
                     Gn = Object(b.useState)(!1), Un = Object(A.a)(Gn, 2), Yn = Un[0], qn = Un[1],
                     Vn = Object(b.useState)({}), Kn = Object(A.a)(Vn, 2), Hn = Kn[0], Xn = Kn[1],
                     Zn = Object(b.useState)(""), $n = Object(A.a)(Zn, 2), ea = $n[0], ta = $n[1],
-                    na = Object(b.useState)({money: 0, coin: 0, coupon: 0}), aa = Object(A.a)(na, 2), ia = aa[0],
-                    sa = aa[1], ua = Object(b.useState)({money: 0, coin: 0, coupon: 0, num: 0, gold: 0, bnx: 0}),
+                    na = Object(b.useState)({ money: 0, coin: 0, coupon: 0 }), aa = Object(A.a)(na, 2), ia = aa[0],
+                    sa = aa[1], ua = Object(b.useState)({ money: 0, coin: 0, coupon: 0, num: 0, gold: 0, bnx: 0 }),
                     ra = Object(A.a)(ua, 2), pa = ra[0], ya = ra[1], da = Object(b.useState)([]), oa = Object(A.a)(da, 2),
                     la = oa[0], ca = oa[1], ma = Object(b.useState)([]), ba = Object(A.a)(ma, 2), fa = (ba[0], ba[1]);
                 Object(b.useEffect)((function () {
@@ -466,7 +466,7 @@
                         wa(e), ha(e)
                     }
                 }, ga = function () {
-                    fetch("https://game.binaryx.pro//v1/dungeon/list?Page=1&Limit=3&lang=zh-cn&sign=ee05987d4d4e2c7bb18c2aa1858617a5", {method: "POST"}).then((function (e) {
+                    fetch("https://game.binaryx.pro//v1/dungeon/list?Page=1&Limit=3&lang=zh-cn&sign=ee05987d4d4e2c7bb18c2aa1858617a5", { method: "POST" }).then((function (e) {
                         return e.json()
                     })).then((function (e) {
                         return fa(e.data.Lists)
@@ -474,7 +474,7 @@
                         return console.log(e)
                     }))
                 }, wa = function (e) {
-                    fetch("https://game.binaryx.pro/v1/user/wallet?GoldAddress=".concat(e, "&lang=zh-cn&sign=276bf144d035ba5f5ed0f52e06dfb9a4"), {method: "POST"}).then((function (e) {
+                    fetch("https://game.binaryx.pro/v1/user/wallet?GoldAddress=".concat(e, "&lang=zh-cn&sign=276bf144d035ba5f5ed0f52e06dfb9a4"), { method: "POST" }).then((function (e) {
                         return e.json()
                     })).then((function (e) {
                         sa(e.data)
@@ -482,7 +482,7 @@
                         return console.log(e)
                     }))
                 }, ha = function (e) {
-                    Jn(!0), fetch("https://game.binaryx.pro/v1/dungeon/loglist?Page=1&GoldAddress=".concat(e, "&Limit=999999&lang=zh-cn&sign=4b71493003083bd0bbc252879b6357ff"), {method: "POST"}).then((function (e) {
+                    Jn(!0), fetch("https://game.binaryx.pro/v1/dungeon/loglist?Page=1&GoldAddress=".concat(e, "&Limit=999999&lang=zh-cn&sign=4b71493003083bd0bbc252879b6357ff"), { method: "POST" }).then((function (e) {
                         return e.json()
                     })).then((function (e) {
                         console.log(e);
@@ -533,7 +533,7 @@
                             }
                             return e + n
                         }), 0);
-                        ya({money: n, coupon: a, coin: i, num: t.length, gold: s, bnx: u}), ca(e.data.Lists)
+                        ya({ money: n, coupon: a, coin: i, num: t.length, gold: s, bnx: u }), ca(e.data.Lists)
                     })).catch((function (e) {
                         console.log(e), Jn(!1)
                     })).finally((function () {
@@ -545,7 +545,7 @@
                         return M.a.wrap((function (e) {
                             for (; ;) switch (e.prev = e.next) {
                                 case 0:
-                                    if (u.request({method: "wallet_addEthereumChain", params: [we]}).catch((function (e) {
+                                    if (u.request({ method: "wallet_addEthereumChain", params: [we] }).catch((function (e) {
                                     })), !a.isAvailable || a.isConnected) {
                                         e.next = 20;
                                         break
@@ -567,7 +567,7 @@
                                 case 17:
                                     e.prev = 17, e.t0 = e.catch(2), console.log(e.t0);
                                 case 20:
-                                case"end":
+                                case "end":
                                     return e.stop()
                             }
                         }), e, null, [[2, 17]])
@@ -587,7 +587,7 @@
                 }, Oa = function (e) {
                     return function () {
                         y ? (Ma(), St.NewPlayInfoContract.methods.getLevelUpConfig(e.level).call().then((function (t) {
-                            console.log(t), St.NewPlayInfoContract.methods.levelUp(e.token_id, t[0], t[1]).send({from: y}).then((function () {
+                            console.log(t), St.NewPlayInfoContract.methods.levelUp(e.token_id, t[0], t[1]).send({ from: y }).then((function () {
                                 return ka(y)
                             })).catch((function (e) {
                                 return console.log(e)
@@ -608,7 +608,7 @@
                                 })).then((function (e) {
                                     var t = e.data.result, a = [];
                                     t && (a = t.map((function (e) {
-                                        return Object(j.a)(Object(j.a)({}, e), {}, {name: Fe(e.work_type)})
+                                        return Object(j.a)(Object(j.a)({}, e), {}, { name: Fe(e.work_type) })
                                     }))), n(a)
                                 }))
                             }))
@@ -666,7 +666,7 @@
                                                     gold: Number(p / 1e18).toFixed(2)
                                                 });
                                             case 30:
-                                            case"end":
+                                            case "end":
                                                 return e.stop()
                                         }
                                     }), e)
@@ -779,7 +779,7 @@
                                                                 token_id: t
                                                             });
                                                         case 4:
-                                                        case"end":
+                                                        case "end":
                                                             return e.stop()
                                                     }
                                                 }), e)
@@ -795,7 +795,7 @@
                                         })), gn(!1)
                                     }));
                                 case 27:
-                                case"end":
+                                case "end":
                                     return e.stop()
                             }
                         }), e)
@@ -826,7 +826,7 @@
                                                 return -1 === be.indexOf(e.token_id)
                                             })), m(n), Ia(n);
                                         case 4:
-                                        case"end":
+                                        case "end":
                                             return e.stop()
                                     }
                                 }), e)
@@ -888,11 +888,11 @@
                             t > 0 && (n = n.filter((function (e) {
                                 return e.level === t
                             }))), 0 !== n.length ? (Ma(), n.forEach((function (e) {
-                                "\u517c\u804c" === e.workname ? St.MiningContract.methods.quitWork(e.token_id).send({from: y}).then((function () {
+                                "\u517c\u804c" === e.workname ? St.MiningContract.methods.quitWork(e.token_id).send({ from: y }).then((function () {
                                     return Aa(y)
                                 })).catch((function (e) {
                                     return console.log(e)
-                                })) : St.NewMiningContract.methods.quitWork(e.token_id).send({from: y}).then((function () {
+                                })) : St.NewMiningContract.methods.quitWork(e.token_id).send({ from: y }).then((function () {
                                     return Aa(y)
                                 })).catch((function (e) {
                                     return console.log(e)
@@ -915,7 +915,7 @@
                             }));
                             if (0 === n.length) return void D.b.error("\u4f60\u6ca1\u6709\u9ed1\u5974\u53ef\u6536");
                             n.forEach((function (e) {
-                                St.MiningContract.methods.getAward(e.token_id).send({from: y}).then((function () {
+                                St.MiningContract.methods.getAward(e.token_id).send({ from: y }).then((function () {
                                     return Aa(y)
                                 })).catch((function (e) {
                                     return console.log(e)
@@ -927,18 +927,18 @@
                             }));
                             if (0 === a.length) return void D.b.error("\u4f60\u6ca1\u6709\u5408\u683c\u53ef\u6536");
                             a.forEach((function (e) {
-                                St.NewMiningContract.methods.getAward(e.token_id).send({from: y}).then((function () {
+                                St.NewMiningContract.methods.getAward(e.token_id).send({ from: y }).then((function () {
                                     return Aa(y)
                                 })).catch((function (e) {
                                     return console.log(e)
                                 }))
                             }))
                         } else (e ? ee : Bt).forEach((function (e) {
-                            "\u517c\u804c" === e.workname ? St.MiningContract.methods.getAward(e.token_id).send({from: y}).then((function () {
+                            "\u517c\u804c" === e.workname ? St.MiningContract.methods.getAward(e.token_id).send({ from: y }).then((function () {
                                 return Aa(y)
                             })).catch((function (e) {
                                 return console.log(e)
-                            })) : St.NewMiningContract.methods.getAward(e.token_id).send({from: y}).then((function () {
+                            })) : St.NewMiningContract.methods.getAward(e.token_id).send({ from: y }).then((function () {
                                 return Aa(y)
                             })).catch((function (e) {
                                 return console.log(e)
@@ -955,7 +955,7 @@
                                 return t.gold >= e
                             }));
                             0 !== t.length ? t.forEach((function (e) {
-                                St.MiningContract.methods.getAward(e.token_id).send({from: y}).then((function () {
+                                St.MiningContract.methods.getAward(e.token_id).send({ from: y }).then((function () {
                                     return Aa(y)
                                 })).catch((function (e) {
                                     return console.log(e)
@@ -972,7 +972,7 @@
                             var t = e.data.result.items;
                             m(t), Ia(t);
                             var n = t.filter((function (e) {
-                                return parseInt(e.price) <= 41e16
+                                return parseInt(e.price) <= 35e16
                             }));
                             $t(n), Ln(!1)
                         })).catch((function (e) {
@@ -989,23 +989,23 @@
                         children: Object(fe.jsxs)(at, {
                             children: [Object(fe.jsx)("img", {
                                 src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAD7ElEQVR4nO2azU8TQRiHe/E/MGLq0i5+dAutLRIryIds7YellogaCRE0ikbjwSjxoCcPHvRKaiTERIxEo/KlbaFQamwjBVGT3S0YjUZUMHpATSOa6G28Tt/ZhA2ClvhO8lx+eWdm59nJwG5Xp1NpBt5MaPJ54SnMDEZhVK3vv2gGozDKXLNReAszvd60UtuAKAAFoAAUQGEvLlHItyihyUz3SCqiQku8Vl0+L4TgvImWcolcdhGaA6J9BgWgABSwdAK+f+yRbLYimaZyq6WT480izSrDugqY6fXaMrW+5aWWTjivcr5CRYBtaQWQTK9CpmoJzewz/ySzKwymEZhxRiGpJVPr29VWPQnnJXc9yl/fASgABaAARkBG8qdthUUyTbWjMAIPLVeFJQzrPGWWMKzzVFn7YV2y05nWJuAfHILkZYC5ENLtSTJ1o77kgutG/ey8ubIDUAAKWIYCON5cDbEXlyg0dXWeYZLpk7P4ei2eMwIi3jhpd8k0Lbs3peAButpo8sO1MnfbwJuJprs9FcidHaB2LSq7Qm2tKAAFoIBFFPA6IJHb7lAWIzVRpk6pGSI9nkQWI74hpi7tjzLjKX45dwVMBdj/098EJJWMvdvqGdtXbQ4UgAJQQE4I+PUykI7fdKZonoXdWhfLZJ/GfQk43szYDvZxOFcEfJX8ChzrxMHNCxYQ6RCZlySxTmfu/hlEASgABaAAFIACUMD/K+Dni50TZ447JJqB62IK1n0Y80YjHWKSZvz+9gFY9+qhJwXHe5P0TuSsAK3PAoM3xDic8/TRzexL1uX2LIACUMAyFAA/QVmztnBn8+G9Cs3RQ3UJMhtMZfGlLUI+X5GzmLk0SO57x7O45wqTLk+KZrbN2Rs7VS7TvLpY2QvrSK8rzIzX5WXGI93uEMwuNJb0H3EXyzRwrRxvFplfivR600poae0G61tmV8xF00z26fY48xY3uP0Rk112JTRlqn2danOkYeZzWJ8wd1tLQwEo4D8XoNPpVsCDwm4v2dPUuEumaWyojcHDsqneN9Ak2mWa+kprGGYN2zaGml3FCk3DNksI1u2rsjFZfZW1nx3PGoOZw2KunffA09r0BYIAbeYbhAmYcbyJsb7YH0mpz8Fei75AEBa8YBSAAlBAVsvj+FKOF2SayrqaoY7pYZnmwvNb4f3vWuUs3gclmJ17fLUvNvxApjk71t6npW/ZneMPtnQfm6YpcDmG4fXlcXzpogngeLMIDbub9kldc48JTeu3wdShzFUyH8EfsTgBLfgjFtfSt2LwZKosfILQrK8pZz7d/6NTHwWgABQwr4A/IZ83Myf+YoMCUAAKQAFa1vYbwMGeJdYrDtQAAAAASUVORK5CYII=",
-                                style: {width: 40, height: 40}
-                            }), Object(fe.jsx)(it, {children: "\u5de5\u5177\u732b"}), Object(fe.jsxs)(ut, {
+                                style: { width: 40, height: 40 }
+                            }), Object(fe.jsx)(it, { children: "\u5de5\u5177\u732b" }), Object(fe.jsxs)(ut, {
                                 children: [Object(fe.jsx)(pt, {
                                     type: "primary",
-                                    style: {width: 100, padding: 0},
+                                    style: { width: 100, padding: 0 },
                                     danger: !0,
                                     onClick: Na(.044),
                                     children: "\u6253\u8d4f0.04BNB"
                                 }), Object(fe.jsx)(pt, {
                                     type: "primary",
-                                    style: {width: 100, padding: 0},
+                                    style: { width: 100, padding: 0 },
                                     danger: !0,
                                     onClick: Na(.088),
                                     children: "\u6253\u8d4f0.08BNB"
                                 }), Object(fe.jsx)(pt, {
                                     type: "primary",
-                                    style: {width: 100, padding: 0},
+                                    style: { width: 100, padding: 0 },
                                     danger: !0,
                                     onClick: Na(.118),
                                     children: "\u6253\u8d4f0.1BNB"
@@ -1024,10 +1024,10 @@
                                     children: "\u5f53\u524d\u94b1\u5305"
                                 }), y, Object(fe.jsxs)(L.b, {
                                     children: [Object(fe.jsxs)("p", {
-                                        style: {fontWeight: "bold"},
+                                        style: { fontWeight: "bold" },
                                         children: ["BNX\u4f59\u989d: ", Rt]
                                     }), Object(fe.jsxs)("p", {
-                                        style: {fontWeight: "bold"},
+                                        style: { fontWeight: "bold" },
                                         children: ["Gold\u4f59\u989d: ", Gt]
                                     })]
                                 })]
@@ -1037,10 +1037,10 @@
                                 children: [Object(fe.jsx)("h3", {
                                     id: "menu2",
                                     children: "\u6211\u7684\u82f1\u96c4"
-                                }), Object(fe.jsx)("span", {children: "\u76ee\u524d\u53ea\u9488\u5bf9\u517c\u804c, \u4f10\u6728, \u6253\u730e, \u6284\u5f55, \u917f\u9152, \u7687\u5ba4\u4ee5\u4e0a\u8bf7\u53bb\u5b98\u7f51\u64cd\u4f5c"}), Object(fe.jsxs)(rt, {
+                                }), Object(fe.jsx)("span", { children: "\u76ee\u524d\u53ea\u9488\u5bf9\u517c\u804c, \u4f10\u6728, \u6253\u730e, \u6284\u5f55, \u917f\u9152, \u7687\u5ba4\u4ee5\u4e0a\u8bf7\u53bb\u5b98\u7f51\u64cd\u4f5c" }), Object(fe.jsxs)(rt, {
                                     children: [Object(fe.jsx)(R.a, {
                                         placeholder: "\u9700\u8981\u8f6c\u79fb\u5361\u7684\u5730\u5740",
-                                        style: {width: 200, height: 30},
+                                        style: { width: 200, height: 30 },
                                         onChange: function (e) {
                                             return ta(e.target.value)
                                         }
@@ -1063,7 +1063,7 @@
                                                     case Ae:
                                                         t = St.youxiaContract
                                                 }
-                                                t.methods.transferFrom(y, ea, e.token_id).send({from: y}).then((function () {
+                                                t.methods.transferFrom(y, ea, e.token_id).send({ from: y }).then((function () {
                                                     return ka(y)
                                                 })).catch((function (e) {
                                                     return console.log(e)
@@ -1083,7 +1083,7 @@
                                         disabled: !un,
                                         onClick: function () {
                                             y ? (Ma(), kt.forEach((function (e) {
-                                                St.MiningContract.methods.work(Ue, e.token_id).send({from: y}).then((function () {
+                                                St.MiningContract.methods.work(Ue, e.token_id).send({ from: y }).then((function () {
                                                     return ka(y)
                                                 })).catch((function (e) {
                                                     return console.log(e)
@@ -1111,7 +1111,7 @@
                                                     case ve:
                                                         t = qe
                                                 }
-                                                St.NewMiningContract.methods.work(t, e.token_id).send({from: y}).then((function () {
+                                                St.NewMiningContract.methods.work(t, e.token_id).send({ from: y }).then((function () {
                                                     return ka(y)
                                                 })).catch((function (e) {
                                                     return console.log(e)
@@ -1124,7 +1124,7 @@
                                             return ka(y)
                                         }, children: "\u5237\u65b0"
                                     })]
-                                }), kt.length > 0 ? Object(fe.jsx)(rt, {children: Object(fe.jsxs)("p", {children: ["\u5df2\u9009\u4e2d: ", kt.length]})}) : Object(fe.jsx)(fe.Fragment, {})]
+                                }), kt.length > 0 ? Object(fe.jsx)(rt, { children: Object(fe.jsxs)("p", { children: ["\u5df2\u9009\u4e2d: ", kt.length] }) }) : Object(fe.jsx)(fe.Fragment, {})]
                             }), Object(fe.jsx)(dt, {
                                 loading: Tn,
                                 rowKey: function (e) {
@@ -1170,7 +1170,7 @@
                                 children: [Object(fe.jsx)("h3", {
                                     id: "menu3",
                                     children: "\u65e5\u5e38\u6316\u77ff"
-                                }), Object(fe.jsx)("span", {children: "\u76ee\u524d\u53ea\u9488\u5bf9\u517c\u804c, \u4f10\u6728, \u6253\u730e, \u6284\u5f55, \u917f\u9152, \u7687\u5ba4\u4ee5\u4e0a\u8bf7\u53bb\u5b98\u7f51\u64cd\u4f5c"}), Object(fe.jsxs)(rt, {
+                                }), Object(fe.jsx)("span", { children: "\u76ee\u524d\u53ea\u9488\u5bf9\u517c\u804c, \u4f10\u6728, \u6253\u730e, \u6284\u5f55, \u917f\u9152, \u7687\u5ba4\u4ee5\u4e0a\u8bf7\u53bb\u5b98\u7f51\u64cd\u4f5c" }), Object(fe.jsxs)(rt, {
                                     children: [Object(fe.jsx)(pt, {
                                         type: "primary",
                                         size: "middle",
@@ -1243,7 +1243,7 @@
                                             return Aa(y)
                                         }, children: "\u5237\u65b0"
                                     })]
-                                }), Bt.length > 0 ? Object(fe.jsx)(rt, {children: Object(fe.jsxs)("p", {children: ["\u5df2\u9009\u4e2d: ", Bt.length]})}) : Object(fe.jsx)(fe.Fragment, {}), Object(fe.jsxs)(L.b, {children: [Object(fe.jsxs)("p", {children: ["\u6316\u77ff\u5361\u7247\u6570\u91cf:", ee.length]}), Object(fe.jsxs)("p", {children: ["\u6bcf\u65e5\u9884\u8ba1\u6536\u76ca:", In]}), Object(fe.jsxs)("p", {children: ["\u6316\u77ff\u603b\u6536\u76ca: ", An.toFixed(2)]})]})]
+                                }), Bt.length > 0 ? Object(fe.jsx)(rt, { children: Object(fe.jsxs)("p", { children: ["\u5df2\u9009\u4e2d: ", Bt.length] }) }) : Object(fe.jsx)(fe.Fragment, {}), Object(fe.jsxs)(L.b, { children: [Object(fe.jsxs)("p", { children: ["\u6316\u77ff\u5361\u7247\u6570\u91cf:", ee.length] }), Object(fe.jsxs)("p", { children: ["\u6bcf\u65e5\u9884\u8ba1\u6536\u76ca:", In] }), Object(fe.jsxs)("p", { children: ["\u6316\u77ff\u603b\u6536\u76ca: ", An.toFixed(2)] })] })]
                             }), Object(fe.jsx)(dt, {
                                 loading: jn,
                                 rowKey: function (e) {
@@ -1282,7 +1282,7 @@
                                         icon: Object(fe.jsx)(I.a, {})
                                     })]
                                 }), Object(fe.jsx)("p", {
-                                    style: {marginTop: 4},
+                                    style: { marginTop: 4 },
                                     children: Object(fe.jsxs)(L.b, {
                                         children: [Object(fe.jsxs)(E.a, {
                                             color: "#55acee",
@@ -1296,29 +1296,29 @@
                                         })]
                                     })
                                 }), Object(fe.jsx)("p", {
-                                    style: {marginTop: 5},
+                                    style: { marginTop: 5 },
                                     children: Object(fe.jsxs)(L.b, {
-                                        children: [Object(fe.jsx)("p", {children: "\u53ef\u9886"}), Object(fe.jsxs)(E.a, {
+                                        children: [Object(fe.jsx)("p", { children: "\u53ef\u9886" }), Object(fe.jsxs)(E.a, {
                                             color: "red",
                                             children: ["BNX ", ia.coin.toFixed(4)]
                                         }), Object(fe.jsxs)(E.a, {
                                             color: "green",
                                             children: ["\u91d1\u5e01 ", ia.money]
-                                        }), Object(fe.jsxs)(E.a, {color: "gold", children: ["\u94a5\u5319 ", ia.coupon]})]
+                                        }), Object(fe.jsxs)(E.a, { color: "gold", children: ["\u94a5\u5319 ", ia.coupon] })]
                                     })
                                 }), Object(fe.jsx)("p", {
-                                    style: {marginTop: 5},
+                                    style: { marginTop: 5 },
                                     children: Object(fe.jsxs)(L.b, {
-                                        children: [Object(fe.jsx)("p", {children: "\u5df2\u9886"}), Object(fe.jsxs)(E.a, {
+                                        children: [Object(fe.jsx)("p", { children: "\u5df2\u9886" }), Object(fe.jsxs)(E.a, {
                                             color: "red",
                                             children: ["BNX ", pa.coin.toFixed(4)]
                                         }), Object(fe.jsxs)(E.a, {
                                             color: "green",
                                             children: ["\u91d1\u5e01 ", pa.money]
-                                        }), Object(fe.jsxs)(E.a, {color: "gold", children: ["\u94a5\u5319 ", pa.coupon]})]
+                                        }), Object(fe.jsxs)(E.a, { color: "gold", children: ["\u94a5\u5319 ", pa.coupon] })]
                                     })
                                 }), Object(fe.jsx)("p", {
-                                    style: {marginTop: 5},
+                                    style: { marginTop: 5 },
                                     children: "\u6536\u76ca\u6309\u71671BNX=15000Gold\u8ba1\u7b97, \u94a5\u5319\u4e0d\u53c2\u4e0e\u8ba1\u7b97, \u53ea\u662f\u9884\u8ba1\u5927\u6982\u7684\u6536\u76ca, \u5982\u6709\u51fa\u5165, \u90fd\u662f\u6211\u7684\u95ee\u9898"
                                 })]
                             }), Object(fe.jsx)(dt, {
@@ -1337,7 +1337,7 @@
                                     },
                                     checkedChildren: "\u7b80\u6d01\u641c\u7d22",
                                     unCheckedChildren: "\u7b80\u6d01\u641c\u7d22",
-                                    style: {margin: 10}
+                                    style: { margin: 10 }
                                 }), Object(fe.jsxs)(J.a, {
                                     onFinish: function (e) {
                                         var t = c.filter((function (t) {
@@ -1350,7 +1350,7 @@
                                         B(t)
                                     },
                                     layout: "inline",
-                                    style: {alignItems: "center"},
+                                    style: { alignItems: "center" },
                                     initialValues: {
                                         dj: "\u5168\u90e8\u7b49\u7ea7",
                                         zy: "\u5168\u90e8\u804c\u4e1a",
@@ -1366,7 +1366,7 @@
                                         label: "\u804c\u4e1a",
                                         children: Object(fe.jsxs)(S.a, {
                                             name: "zy",
-                                            style: {width: 75},
+                                            style: { width: 75 },
                                             children: [Object(fe.jsx)(ge, {
                                                 value: "\u5168\u90e8\u804c\u4e1a",
                                                 children: "\u804c\u4e1a"
@@ -1379,14 +1379,14 @@
                                             }), Object(fe.jsx)(ge, {
                                                 value: Oe,
                                                 children: et[Oe]
-                                            }), Object(fe.jsx)(ge, {value: Ae, children: et[Ae]})]
+                                            }), Object(fe.jsx)(ge, { value: Ae, children: et[Ae] })]
                                         })
                                     }), Object(fe.jsx)(J.a.Item, {
                                         name: "dj",
                                         label: "\u7b49\u7ea7",
                                         children: Object(fe.jsxs)(S.a, {
                                             name: "dj",
-                                            style: {width: 75},
+                                            style: { width: 75 },
                                             children: [Object(fe.jsx)(ge, {
                                                 value: "\u5168\u90e8\u7b49\u7ea7",
                                                 children: "\u7b49\u7ea7"
@@ -1417,7 +1417,7 @@
                                             }), Object(fe.jsx)(ge, {
                                                 value: "9",
                                                 children: "L9"
-                                            }), Object(fe.jsx)(ge, {value: "10", children: "L10"})]
+                                            }), Object(fe.jsx)(ge, { value: "10", children: "L10" })]
                                         })
                                     }), Pn || ct() ? Object(fe.jsxs)(fe.Fragment, {
                                         children: [Object(fe.jsx)(J.a.Item, {
@@ -1428,7 +1428,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "c",
@@ -1438,7 +1438,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         })]
                                     }) : Object(fe.jsxs)(fe.Fragment, {
@@ -1450,7 +1450,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "c",
@@ -1460,7 +1460,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "t3",
@@ -1470,7 +1470,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "t4",
@@ -1480,7 +1480,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "t5",
@@ -1490,7 +1490,7 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         }), Object(fe.jsx)(J.a.Item, {
                                             name: "t6",
@@ -1500,14 +1500,14 @@
                                                 min: 0,
                                                 max: 100,
                                                 size: "middle",
-                                                style: {width: 60}
+                                                style: { width: 60 }
                                             })
                                         })]
                                     }), Object(fe.jsx)(J.a.Item, {
                                         children: Object(fe.jsx)(P.a, {
                                             type: "primary",
                                             htmlType: "submit",
-                                            style: {margin: "0 10px"},
+                                            style: { margin: "0 10px" },
                                             children: "\u641c\u7d22"
                                         })
                                     })]
@@ -1535,7 +1535,7 @@
                                 children: [Object(fe.jsx)("h3", {
                                     id: "menu6",
                                     children: "\u6361\u6f0f\u533a\u57df"
-                                }), Object(fe.jsx)("p", {children: "\u4ef7\u683c\u4f4e\u4e8e0.41bnx\u7684\u9ed1\u5361"}), Object(fe.jsxs)(rt, { // todo
+                                }), Object(fe.jsx)("p", { children: "\u4ef7\u683c\u4f4e\u4e8e0.35bnx\u7684\u9ed1\u5361" }), Object(fe.jsxs)(rt, { // todo
                                     children: [Object(fe.jsx)(pt, {
                                         type: "primary",
                                         onClick: Ea,
@@ -1644,7 +1644,7 @@
                         }), Object(fe.jsx)(Te, {
                             href: "#menu5",
                             title: "\u5361\u7247\u7b5b\u9009"
-                        }), Object(fe.jsx)(Te, {href: "#menu6", title: "\u6361\u6f0f"}), Object(fe.jsx)(Te, {
+                        }), Object(fe.jsx)(Te, { href: "#menu6", title: "\u6361\u6f0f" }), Object(fe.jsx)(Te, {
                             href: "#menu7",
                             title: "\u5408\u683c\u5361\u5730\u677f\u4ef7"
                         })]
@@ -1658,14 +1658,14 @@
                     })]), Object(_.a)(e, "onCancel", (function () {
                         return qn(!1)
                     })), Object(_.a)(e, "children", Object(fe.jsxs)("div", {
-                        style: {display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"},
+                        style: { display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" },
                         children: [Object(fe.jsx)("img", {
                             src: lt(Hn.career_address),
-                            style: {width: 200, height: 200}
+                            style: { width: 200, height: 200 }
                         }), Object(fe.jsxs)("div", {
-                            style: {flex: 1, width: "90%"},
-                            children: [Object(fe.jsxs)("p", {children: ["NFT\u5730\u5740: ", Hn.token_id.substr(0, 10), "***", Hn.token_id.substr(-10, 10)]}), Object(fe.jsxs)("p", {
-                                style: {fontWeight: "bold"},
+                            style: { flex: 1, width: "90%" },
+                            children: [Object(fe.jsxs)("p", { children: ["NFT\u5730\u5740: ", Hn.token_id.substr(0, 10), "***", Hn.token_id.substr(-10, 10)] }), Object(fe.jsxs)("p", {
+                                style: { fontWeight: "bold" },
                                 children: ["\u603b\u5c5e\u6027:", " ", Hn.strength + Hn.agility + Hn.physique + Hn.volition + Hn.brains + Hn.charm]
                             }), Object(fe.jsx)(q.a, {
                                 status: "exception",
@@ -1714,6 +1714,6 @@
                     })), e)) : Object(fe.jsx)(fe.Fragment, {})]
                 })
             };
-        T.a.render(Object(fe.jsx)(f.a.StrictMode, {children: Object(fe.jsx)(w.MetamaskStateProvider, {children: Object(fe.jsx)(Ot, {})})}), document.getElementById("root")), g()
+        T.a.render(Object(fe.jsx)(f.a.StrictMode, { children: Object(fe.jsx)(w.MetamaskStateProvider, { children: Object(fe.jsx)(Ot, {}) }) }), document.getElementById("root")), g()
     }
 }, [[763, 1, 2]]]);
